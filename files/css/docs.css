@@ -37,7 +37,7 @@ body{
 .sample-docs .page{
 	width:471px;
 	height:600px;
-	background:white;
+	/* background:white; */
 
 	-webkit-box-shadow:0 0 20px rgba(0,0,0,0.2);
 	-moz-box-shadow:0 0 20px rgba(0,0,0,0.2);
@@ -47,7 +47,7 @@ body{
 }
 
 .sample-docs .hard{
-	background-image:url(../pics/covers.jpg);
+	background-color: none;
 }
 
 .sample-docs .p2{
@@ -111,16 +111,16 @@ body{
 }
 
 .sample-docs .shadow{
-	-webkit-transition: -webkit-box-shadow 0.5s;
+	/* -webkit-transition: -webkit-box-shadow 0.5s;
 	-moz-transition: -moz-box-shadow 0.5s;
 	-o-transition: -webkit-box-shadow 0.5s;
-	-ms-transition: -ms-box-shadow 0.5s;
+	-ms-transition: -ms-box-shadow 0.5s; */
 
-	-webkit-box-shadow:0 0 20px #ccc;
+	/* -webkit-box-shadow:0 0 20px #ccc;
 	-moz-box-shadow:0 0 20px #ccc;
 	-o-box-shadow:0 0 20px #ccc;
 	-ms-box-shadow:0 0 20px #ccc;
-	box-shadow:0 0 20px #ccc;
+	box-shadow:0 0 20px #ccc; */
 }
 
 .sample-docs .tabs{
